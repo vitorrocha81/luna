@@ -1,0 +1,3 @@
+[13-Dec-2012 08:23:47] PHP Fatal error:  Call to undefined function  bloginfo() in /home3/medianov/public_html/websites/photoshopLayout/index.php on line 474
+[13-Dec-2012 08:24:00] PHP Fatal error:  Call to undefined function  bloginfo() in /home3/medianov/public_html/websites/photoshopLayout/index.php on line 474
+[13-Dec-2012 08:28:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/medianov/public_html/websites/photoshopLayout/contact.php:51) in /home3/medianov/public_html/websites/photoshopLayout/contact.php on line 58
