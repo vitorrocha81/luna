@@ -244,7 +244,7 @@ nav ul ul ul {
     height:1100px;
     width:100%;
     float:left;
-    text-shadow:1px 1px 2px #f0f0f0;
+    text-shadow:1px 1px 3px #9B3C1F;
 
 }
 
@@ -407,49 +407,51 @@ nav ul ul ul {
 	position:relative;
 }
 
-.about-us-main {
-	width:310px;
+.text-full {
+	width:100%;
 	height:200px;
 	float:left;
 	margin-right:0px;
 	margin-left:60px;
+	padding: 20px;
+	margin: 20px;
 }
 
-.about-us-main a {
+.text-full a {
 	text-decoration:none;
 }
 
-.about-us-main h1 {
+.text-full h1 {
     font-family: 'geosanslightregular';
 	text-transform:uppercase;
-	font-size:66px;
-	line-height:58px;
+	font-size: 40px;
+	line-height:45px;
 	color:#000;
 	font-weight:normal;
 }
 
-.about-us-main h2 {
+.text-full h2 {
     font-family: 'oswaldlight';
 	text-transform:uppercase;
 	font-size:34px;
 	line-height:34px;
-	color:#333;
+	color:#000;
 	font-weight: normal;
 	margin-top:25px;
 }
 
-.about-us-main h3 {
+.text-full h3 {
     font-family: 'oswaldlight';
 	text-transform:uppercase;
 	font-size:18px;
 	line-height:22px;
-	color:#333;
+	color:#000;
 	font-weight: normal;
 	margin-top:7px;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'oswaldlight', sans-serif;
 	font-weight:normal;
 	font-size:14px;
 	color:#333;
@@ -498,8 +500,8 @@ p {
 .content_6 .about-article:first-child{margin-left:0;}
 .content_6 .about-article:last-child{margin-right:0;}
 
-.button {width:300px; text-transform:uppercase; font-family: 'Open Sans', sans-serif; font-weight:normal; font-size:16px; padding:5px; background:#754D41; color:#FFF; text-align:center; text-shadow: 0px 0px 0px; margin-top:25px;}
-.button2 { text-transform:uppercase; font-family: 'Open Sans', sans-serif; font-weight:normal; font-size:16px; padding:4px 8px 4px 8px; background:#4d4d4d; color:#FFF; text-align:center; text-shadow: 0px 0px 0px; margin-top:25px; float:right;}
+.button {width:300px; text-transform:uppercase; font-family: 'oswaldlight', sans-serif; font-weight:normal; font-size:16px; padding:5px; background:#754D41; color:#FFF; text-align:center; text-shadow: 0px 0px 0px; margin-top:25px;}
+.button2 { text-transform:uppercase; font-family: 'oswaldlight', sans-serif; font-weight:normal; font-size:16px; padding:4px 8px 4px 8px; background:#4d4d4d; color:#FFF; text-align:center; text-shadow: 0px 0px 0px; margin-top:25px; float:right;}
 .button2 a { text-decoration:none; color:#fff;}
 .medialink {width:87px; height:31px;  float:right; margin-top:18px;}
 
@@ -509,14 +511,23 @@ p {
 ----------------------------------------- */
 
 .section3 {
-	background:#000 url(images/quote1/bg.jpg) 50% 0 no-repeat fixed;
+	background:#FFF url(images/quote1/1.jpg) 50% 0 no-repeat fixed;
     margin:40px 0px 0px 0px;
     height:500px;
     width:100%;
     float:left;
-    text-shadow:1px 1px 2px #f0f0f0;
+    text-shadow:1px 1px 2px #9B3C1F;
 	position:relative;
 }
+.pic_bg {
+    margin:40px 0px 0px 0px;
+    height:500px;
+    width:100%;
+    float:left;
+    text-shadow:1px 1px 2px #9B3C1F;
+	position:relative;
+}
+
 
 .quote1-pattern {
 	width:100%;
@@ -537,7 +548,7 @@ p {
 	width:980px;
 	height:60px;
 	color:#FFF;
-	font-family: 'BebasNeueRegular';
+	font-family: 'oswaldlight';
 	font-size:55px;
 	left:50%;
 	margin-left:-490px;
