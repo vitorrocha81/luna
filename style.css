@@ -106,7 +106,7 @@ a.facebook, a.facebook:hover, a.twitter, a.twitter:hover, a.vimeo, a.vimeo:hover
 	margin-left:50px;
 	float:left;
     font-family: 'oswaldlight';
-	font-size:20px;
+	font-size:16px;
 	color:#6f6b6b;
 	margin-top: 40px;
 }
@@ -148,7 +148,7 @@ nav ul li:hover a {
 	
 nav ul li a {
 	display: block;
-	padding: 26px 17px 25px 17px;
+	padding: 5px 15px;
 	color:#000;
 	text-decoration: none;
 	transition: color 0.4s ease-in-out;
@@ -159,7 +159,7 @@ nav ul li a {
 
 nav ul li a:active {
 	display: block;
-	padding: 26px 17px 25px 17px;
+	padding: 5px 15px;
 	color:#9B3C1F;
 	text-decoration: none;
 	transition: color 0.4s ease-in-out;
@@ -179,7 +179,7 @@ nav ul li a:active {
 
 nav ul li a.first {
 	display: block;
-	padding: 26px 17px 25px 17px;
+	padding: 5px 15px;
 	text-decoration: none;
 	transition: color 0.4s ease-in-out;
 	-moz-transition: color 0.4s ease-in-out; /* Firefox 4 */
@@ -212,7 +212,7 @@ nav ul ul li {
 
 nav ul ul li a {
 	background:#292727;
-	padding: 15px 40px;
+	padding: 5px 10px;
 	color: #6f6b6b !important;
 	transition: color 0.4s ease-in-out;
 	-moz-transition: color 0.4s ease-in-out; /* Firefox 4 */
@@ -280,7 +280,8 @@ nav ul ul ul {
 			margin:20px 0;
 		}
 				
-		#content, #content2, #content3, #content4, #content5 {	
+		#content, #content2, #content3, #content4, #content5 {
+		margin-top: 55px; 	
 			max-width: 1200px;	
 			overflow:hidden;		
 		}
@@ -328,6 +329,24 @@ nav ul ul ul {
 	float: left;
 	padding: 0px;
 }
+
+.about-one {
+	width: 45%;
+	float: left;
+	margin-right:100px
+	text-align: justify-all;
+}
+
+.about-two {
+	width: 50%;
+	float: right;
+	text-align: justify-all;
+}
+
+.about-two td {
+	color: #000;
+}
+
 
 #nav2, #nav3, #nav4, #nav5 {
 	margin-top:20px;
@@ -384,15 +403,17 @@ nav ul ul ul {
 
 
 .section2 {
-	background:#FFF url(images/bg-section2.jpg) no-repeat;
+	/*background:#FFF url(images/bg-section2.jpg) no-repeat;*/
+	background:#f3e4e4;
     margin:0px;
     height:515px;
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #f0f0f0;
-	padding-top:150px;
+	padding-top: 50px;
 	padding-bottom:30px;
 	position:relative;
+	color: #723a3a;
 }
 
 .section6 {
@@ -460,7 +481,7 @@ p {
 }
 
 .divider {
-	width:5px;
+	width:50px;
 	border-left:1px solid #999;
 	height:385px;
 	display:block;
@@ -522,6 +543,7 @@ p {
 .pic_bg {
     margin:40px 0px 0px 0px;
     height:500px;
+    min-width: 1024px;
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #9B3C1F;
@@ -548,8 +570,8 @@ p {
 	width:980px;
 	height:60px;
 	color:#FFF;
-	font-family: 'oswaldlight';
-	font-size:55px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:40px;
 	left:50%;
 	margin-left:-490px;
 	text-align:center;
@@ -560,7 +582,7 @@ p {
 	position:absolute;
 	width:980px;
 	color:#FFF;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'oswaldlight', sans-serif;
 	font-size:65px;
 	left:50%;
 	margin-left:-490px;
@@ -953,13 +975,12 @@ border-radius: 3px;}.button23:active{-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2) 
 	}
 	
 	.divider {
-		width:5px;
-		border-left:1px solid #999;
-		height:385px;
-		display:block;
-		float:left;
-		margin-right:10px;
-		margin-left:10px;
+		width: 5px;
+		border-left: 1px solid #6c4e4e;
+		height: 100%;
+		display: block;
+		float: left;
+		margin-right: 20px;;
 	}
 
 }
@@ -971,7 +992,7 @@ border-radius: 3px;}.button23:active{-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2) 
 	}
 	
 	.contentbox{
-		margin-right:60px
+		margin-right:10px
 	}
 	
 	.divider {

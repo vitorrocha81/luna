@@ -72,7 +72,7 @@ html {
 
 body {
     margin: 0;
-	background-color:#000;
+	background-color:#fff;
 	color:#fff;
 }
 
@@ -85,7 +85,7 @@ body {
  */
  
 a {
-	color:#38d4ca;
+	color:#723a3a;
 }
 
 a:focus {
