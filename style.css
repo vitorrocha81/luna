@@ -410,7 +410,7 @@ nav ul ul ul {
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #f0f0f0;
-	padding-top: 50px;
+	padding-top: 15px;
 	padding-bottom:30px;
 	position:relative;
 	color: #723a3a;
@@ -434,8 +434,8 @@ nav ul ul ul {
 	float:left;
 	margin-right:0px;
 	margin-left:60px;
-	padding: 20px;
-	margin: 20px;
+	padding: 2px;
+	margin: 2px;
 }
 
 .text-full a {
@@ -526,11 +526,6 @@ p {
 .button2 a { text-decoration:none; color:#fff;}
 .medialink {width:87px; height:31px;  float:right; margin-top:18px;}
 
-
-/* -----------------------------------------
-   Quote 1
------------------------------------------ */
-
 .section3 {
 	background:#FFF url(images/quote1/1.jpg) 50% 0 no-repeat fixed;
     margin:40px 0px 0px 0px;
@@ -547,8 +542,21 @@ p {
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #9B3C1F;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top; 
+    background-color: fff;
 	position:relative;
 }
+.pic_big:after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom right,#fff,#ccc);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}	
 
 
 .quote1-pattern {
@@ -570,12 +578,14 @@ p {
 	width:980px;
 	height:60px;
 	color:#FFF;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'BebasNeueRegular', sans-serif;
 	font-size:40px;
 	left:50%;
 	margin-left:-490px;
 	text-align:center;
-	margin-top:255px;
+	margin-top: 210px;
+	/*text-shadow: 5px 5px 10px #00FF00;*/
+	text-shadow: 3px 2px 4px rgba(57, 0, 18, 1);
 }
 
 .quote2 {
@@ -651,8 +661,6 @@ p {
 	background:url(images/quote2/shapes.png) center no-repeat;
 }
 
-.quote { position:absolute; width:980px; height:60px; color:#FFF; font-family: 'BebasNeueRegular';
-	font-size:55px; left:50%; margin-left:-490px; text-align:center; margin-top:255px;}
 
 /* -----------------------------------------
    Quote 3
@@ -668,8 +676,6 @@ p {
 	position:relative;
 }
 
-.quote { position:absolute; width:980px; height:60px; color:#FFF; font-family: 'BebasNeueRegular';
-	font-size:55px; left:50%; margin-left:-490px; text-align:center; margin-top:255px;}
 
 
 /* -----------------------------------------
@@ -693,8 +699,7 @@ p {
 	background:url(images/quote4/pattern.png);
 }
 
-.quote { position:absolute; width:980px; height:60px; color:#FFF; font-family: 'BebasNeueRegular';
-	font-size:55px; left:50%; margin-left:-490px; text-align:center; margin-top:255px;}
+
 	
 	
 	/* -----------------------------------------
@@ -717,9 +722,6 @@ p {
 	margin:0 auto;
 	background:url(images/quote5/pattern.png);
 }
-
-.quote { position:absolute; width:980px; height:60px; color:#FFF; font-family: 'BebasNeueRegular';
-	font-size:55px; left:50%; margin-left:-490px; text-align:center; margin-top:255px;}
 
 /* -----------------------------------------
    Team

@@ -1,5 +1,4 @@
 
-<meta lang="pt-BR">
    <?php require('header.php') ?>
         
     <div class="section3 black" id="q1">

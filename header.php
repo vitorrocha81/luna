@@ -189,7 +189,7 @@
  <header>
     	<div class="nav nav-bar" style="padding-left: 70px;
 color: #9B3C1F;
-font-size: 14px;
+font-size: 14px;    
 background-color: #ece9ec;
 padding-top: 20px;
 height: 40px;"> <i class="fa fa-phone" aria-hidden="true"></i> (11) 2293-0416 | <i class="fa fa-whatsapp" aria-hidden="true"></i> (11) 94828-0291 | <i class="fa fa-envelope" aria-hidden="true"></i> contato@lunaodontologia.com.br </div>
@@ -210,8 +210,8 @@ height: 40px;"> <i class="fa fa-phone" aria-hidden="true"></i> (11) 2293-0416 | 
                     									<li><a href="cirurgia_oral_menor.php">Cirurgia oral menor</a></li>
                     										 <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Toxina Botulínica</a>
                     																		<ul class="dropdown-menu">
-                    																			<li><a href="#"> Harmonização orofacial</a></li>
-                    																			<li><a href="#"> Uso terapêutico</a></li>
+                    																			<li><a href="botox_harmonizacao_facial.php"> Harmonização orofacial</a></li>
+                    																			<li><a href="botox_uso_terapeutico.php"> Uso terapêutico</a></li>
                     																		</ul>
                     																	</li>
                     									</li>
